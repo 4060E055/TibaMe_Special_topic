@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28727D8D86B69A01A09624AD /* Pods_4060E022_9_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5223FE2DE05BC5FA1EDFA7BD /* Pods_4060E022_9_UITests.framework */; };
+		3E0103C1CF19E3E292EAED52 /* Pods_4060E022_9_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0329D3FAD5463A77A79303E9 /* Pods_4060E022_9_Tests.framework */; };
+		9A27E2EC21EDDF9600F168DD /* PanoramicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2EA21EDDF9600F168DD /* PanoramicViewController.swift */; };
+		9A27E2ED21EDDF9600F168DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2EB21EDDF9600F168DD /* ViewController.swift */; };
+		9A27E2EF21EDDF9E00F168DD /* MainMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E2EE21EDDF9E00F168DD /* MainMap.storyboard */; };
+		9A27E2F421EDE00800F168DD /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2F121EDE00800F168DD /* VideoTableViewCell.swift */; };
+		9A27E2F521EDE00800F168DD /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2F221EDE00800F168DD /* VideoTableViewController.swift */; };
+		9A27E2F621EDE00800F168DD /* VideoDetaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2F321EDE00800F168DD /* VideoDetaTableViewController.swift */; };
+		9A27E2F821EDE01D00F168DD /* MainVideo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E2F721EDE01D00F168DD /* MainVideo.storyboard */; };
+		9A27E2FC21EDE0B100F168DD /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2FA21EDE0B100F168DD /* SongTableViewCell.swift */; };
+		9A27E2FD21EDE0B100F168DD /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E2FB21EDE0B100F168DD /* ViewControllers.swift */; };
+		9A27E2FF21EDE0B500F168DD /* MainMusic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E2FE21EDE0B500F168DD /* MainMusic.storyboard */; };
+		9A27E30421EDE29300F168DD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E30121EDE29300F168DD /* DataViewController.swift */; };
+		9A27E30521EDE29300F168DD /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E30221EDE29300F168DD /* ModelController.swift */; };
+		9A27E30621EDE29300F168DD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27E30321EDE29300F168DD /* RootViewController.swift */; };
+		9A27E30821EDE2A400F168DD /* MainBook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E30721EDE2A400F168DD /* MainBook.storyboard */; };
+		9A27E31421EDE30E00F168DD /* fild002.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E30C21EDE30E00F168DD /* fild002.txt */; };
+		9A27E31521EDE30E00F168DD /* fild003.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E30D21EDE30E00F168DD /* fild003.txt */; };
+		9A27E31621EDE30E00F168DD /* fild004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E30E21EDE30E00F168DD /* fild004.txt */; };
+		9A27E31721EDE30E00F168DD /* fild005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E30F21EDE30E00F168DD /* fild005.txt */; };
+		9A27E31821EDE30E00F168DD /* THEGOODSANDTHEILLS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31021EDE30E00F168DD /* THEGOODSANDTHEILLS.txt */; };
+		9A27E31921EDE30E00F168DD /* AesopsFables.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31121EDE30E00F168DD /* AesopsFables.txt */; };
+		9A27E31A21EDE30E00F168DD /* fild006.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31221EDE30E00F168DD /* fild006.txt */; };
+		9A27E31B21EDE30E00F168DD /* fild001.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31321EDE30E00F168DD /* fild001.txt */; };
+		9A27E32B21EDE35A00F168DD /* 6-3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31D21EDE34E00F168DD /* 6-3.mp4 */; };
+		9A27E32C21EDE35A00F168DD /* 6-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31E21EDE34E00F168DD /* 6-1.txt */; };
+		9A27E32D21EDE35A00F168DD /* 6-10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E31F21EDE34F00F168DD /* 6-10.mp4 */; };
+		9A27E32E21EDE35A00F168DD /* 6-9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32021EDE35000F168DD /* 6-9.mp4 */; };
+		9A27E32F21EDE35A00F168DD /* 6-8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32121EDE35200F168DD /* 6-8.mp4 */; };
+		9A27E33021EDE35A00F168DD /* 6-6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32221EDE35500F168DD /* 6-6.mp4 */; };
+		9A27E33121EDE35A00F168DD /* 6-11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32321EDE35600F168DD /* 6-11.mp4 */; };
+		9A27E33221EDE35A00F168DD /* 6-12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32421EDE35700F168DD /* 6-12.mp4 */; };
+		9A27E33321EDE35A00F168DD /* 6-4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32521EDE35800F168DD /* 6-4.mp4 */; };
+		9A27E33421EDE35A00F168DD /* 6-7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32621EDE35800F168DD /* 6-7.mp4 */; };
+		9A27E33521EDE35A00F168DD /* 6-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32721EDE35800F168DD /* 6-2.txt */; };
+		9A27E33621EDE35A00F168DD /* 6-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32821EDE35800F168DD /* 6-2.mp4 */; };
+		9A27E33721EDE35A00F168DD /* 6-5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32921EDE35900F168DD /* 6-5.mp4 */; };
+		9A27E33821EDE35A00F168DD /* 6-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E32A21EDE35A00F168DD /* 6-1.mp4 */; };
+		9A27E34A21EDE3AE00F168DD /* V.K克[逆動‧平行時空]MV [Reverse ‧ Parallel Universe].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E33A21EDE3AA00F168DD /* V.K克[逆動‧平行時空]MV [Reverse ‧ Parallel Universe].mp3 */; };
+		9A27E34B21EDE3AE00F168DD /* V.K 克 - 淚的聲音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E33B21EDE3AB00F168DD /* V.K 克 - 淚的聲音.mp3 */; };
+		9A27E34C21EDE3AE00F168DD /* V.K 克 - 戀冬.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E33C21EDE3AB00F168DD /* V.K 克 - 戀冬.mp3 */; };
+		9A27E34D21EDE3AE00F168DD /* V.K克-守護天使.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E33D21EDE3AB00F168DD /* V.K克-守護天使.mp3 */; };
+		9A27E34E21EDE3AE00F168DD /* V.K克[Evolution era].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E33E21EDE3AC00F168DD /* V.K克[Evolution era].mp3 */; };
+		9A27E34F21EDE3AE00F168DD /* V.K 克 - 琴之翼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E33F21EDE3AC00F168DD /* V.K 克 - 琴之翼.mp3 */; };
+		9A27E35021EDE3AE00F168DD /* V.K克-精靈之歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34021EDE3AC00F168DD /* V.K克-精靈之歌.mp3 */; };
+		9A27E35121EDE3AE00F168DD /* V.K克[十億光年的距離].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34121EDE3AC00F168DD /* V.K克[十億光年的距離].mp3 */; };
+		9A27E35221EDE3AE00F168DD /* V.K克[蘭陵王]テーマ曲＜雪舞＞.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34221EDE3AC00F168DD /* V.K克[蘭陵王]テーマ曲＜雪舞＞.mp3 */; };
+		9A27E35321EDE3AE00F168DD /* V.K克-[紙飛機的冒險]Paper Planes Adventure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34321EDE3AD00F168DD /* V.K克-[紙飛機的冒險]Paper Planes Adventure.mp3 */; };
+		9A27E35421EDE3AE00F168DD /* V.K 克 - 花水月.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34421EDE3AD00F168DD /* V.K 克 - 花水月.mp3 */; };
+		9A27E35521EDE3AE00F168DD /* V.K克 - 純白.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34521EDE3AD00F168DD /* V.K克 - 純白.mp3 */; };
+		9A27E35621EDE3AE00F168DD /* V.K克 - 愛 無限.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34621EDE3AD00F168DD /* V.K克 - 愛 無限.mp3 */; };
+		9A27E35721EDE3AE00F168DD /* V.K克-晨星.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34721EDE3AD00F168DD /* V.K克-晨星.mp3 */; };
+		9A27E35821EDE3AE00F168DD /* V.K 克 - 亞特蘭提斯之戀.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34821EDE3AD00F168DD /* V.K 克 - 亞特蘭提斯之戀.mp3 */; };
+		9A27E35921EDE3AE00F168DD /* V.K 克 - 鏡夜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A27E34921EDE3AE00F168DD /* V.K 克 - 鏡夜.mp3 */; };
+		9A5FD7E921DF52F0007037C5 /* h19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FD7E821DF52F0007037C5 /* h19.jpg */; };
+		9A6BC6DF21DF33C600E1A08A /* h22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6C521DF33C300E1A08A /* h22.jpg */; };
+		9A6BC6E621DF33C600E1A08A /* night_sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6CC21DF33C400E1A08A /* night_sky.jpg */; };
+		9A6BC6F121DF33C600E1A08A /* h23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6D721DF33C500E1A08A /* h23.jpg */; };
+		9A6BC6F421DF366200E1A08A /* north_pole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6F321DF366200E1A08A /* north_pole.jpg */; };
+		9A6BC70C21DF3E8600E1A08A /* h18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6F721DF3E8500E1A08A /* h18.jpg */; };
+		9A6BC70D21DF3E8600E1A08A /* h12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6F821DF3E8500E1A08A /* h12.jpg */; };
+		9A6BC70E21DF3E8600E1A08A /* h5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6F921DF3E8500E1A08A /* h5.jpg */; };
+		9A6BC70F21DF3E8600E1A08A /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6FA21DF3E8500E1A08A /* h2.jpg */; };
+		9A6BC71021DF3E8600E1A08A /* h14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6FB21DF3E8500E1A08A /* h14.jpg */; };
+		9A6BC71121DF3E8600E1A08A /* h15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6FC21DF3E8500E1A08A /* h15.jpg */; };
+		9A6BC71221DF3E8600E1A08A /* h17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6FD21DF3E8500E1A08A /* h17.jpg */; };
+		9A6BC71321DF3E8600E1A08A /* h21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6FE21DF3E8500E1A08A /* h21.jpg */; };
+		9A6BC71421DF3E8600E1A08A /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC6FF21DF3E8500E1A08A /* h3.jpg */; };
+		9A6BC71521DF3E8600E1A08A /* h11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70021DF3E8500E1A08A /* h11.jpg */; };
+		9A6BC71621DF3E8600E1A08A /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70121DF3E8500E1A08A /* h1.jpg */; };
+		9A6BC71721DF3E8600E1A08A /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70221DF3E8500E1A08A /* h4.jpg */; };
+		9A6BC71821DF3E8600E1A08A /* h10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70321DF3E8500E1A08A /* h10.jpg */; };
+		9A6BC71921DF3E8600E1A08A /* h16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70421DF3E8500E1A08A /* h16.jpg */; };
+		9A6BC71A21DF3E8600E1A08A /* h8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70521DF3E8500E1A08A /* h8.jpg */; };
+		9A6BC71C21DF3E8600E1A08A /* h20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70721DF3E8500E1A08A /* h20.jpg */; };
+		9A6BC71D21DF3E8600E1A08A /* h7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70821DF3E8500E1A08A /* h7.jpg */; };
+		9A6BC71E21DF3E8600E1A08A /* h9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70921DF3E8600E1A08A /* h9.jpg */; };
+		9A6BC71F21DF3E8600E1A08A /* h13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70A21DF3E8600E1A08A /* h13.jpg */; };
+		9A6BC72021DF3E8600E1A08A /* h6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC70B21DF3E8600E1A08A /* h6.jpg */; };
+		9AF5AE1E21DD9629003DF31F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE1D21DD9629003DF31F /* AppDelegate.swift */; };
+		9AF5AE2021DD9629003DF31F /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE1F21DD9629003DF31F /* WeatherViewController.swift */; };
+		9AF5AE2321DD9629003DF31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF5AE2121DD9629003DF31F /* Main.storyboard */; };
+		9AF5AE2521DD962B003DF31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF5AE2421DD962B003DF31F /* Assets.xcassets */; };
+		9AF5AE2821DD962B003DF31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF5AE2621DD962B003DF31F /* LaunchScreen.storyboard */; };
+		9AF5AE3321DD962B003DF31F /* _060E022_9_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE3221DD962B003DF31F /* _060E022_9_Tests.swift */; };
+		9AF5AE3E21DD962B003DF31F /* _060E022_9_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE3D21DD962B003DF31F /* _060E022_9_UITests.swift */; };
+		9AF5AE4C21DDABA0003DF31F /* CurrentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE4B21DDABA0003DF31F /* CurrentDetail.swift */; };
+		9AF5AE4E21DDABB1003DF31F /* HourDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE4D21DDABB1003DF31F /* HourDetail.swift */; };
+		9AF5AE5021DDABC7003DF31F /* ForecastDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE4F21DDABC7003DF31F /* ForecastDetail.swift */; };
+		9AF5AE5221DDABD5003DF31F /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE5121DDABD5003DF31F /* CurrentWeather.swift */; };
+		9AF5AE5421DDABE5003DF31F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE5321DDABE5003DF31F /* Location.swift */; };
+		9AF5AE5621DDABF4003DF31F /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE5521DDABF4003DF31F /* WeatherTableViewCell.swift */; };
+		9AF5AE5821DDAC38003DF31F /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5AE5721DDAC38003DF31F /* WeatherCollectionViewCell.swift */; };
+		FAD3C51C8120AB7CED5DC864 /* Pods_4060E022_9_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832D10A25559FE9B2275EF62 /* Pods_4060E022_9_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF5AE2F21DD962B003DF31F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF5AE1221DD9629003DF31F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF5AE1921DD9629003DF31F;
+			remoteInfo = "4060E022(9)";
+		};
+		9AF5AE3A21DD962B003DF31F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF5AE1221DD9629003DF31F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF5AE1921DD9629003DF31F;
+			remoteInfo = "4060E022(9)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0329D3FAD5463A77A79303E9 /* Pods_4060E022_9_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4060E022_9_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		126C1072F5E6B3436CC70D12 /* Pods-4060E022(9)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4060E022(9)UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-4060E022(9)UITests/Pods-4060E022(9)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B05C7586CB66F1551FB6F31 /* Pods-4060E022(9).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4060E022(9).release.xcconfig"; path = "Pods/Target Support Files/Pods-4060E022(9)/Pods-4060E022(9).release.xcconfig"; sourceTree = "<group>"; };
+		4838432FDC7337D3A53CC43B /* Pods-4060E022(9)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4060E022(9)UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-4060E022(9)UITests/Pods-4060E022(9)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5223FE2DE05BC5FA1EDFA7BD /* Pods_4060E022_9_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4060E022_9_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68391931F2E53A3A429CA1D1 /* Pods-4060E022(9).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4060E022(9).debug.xcconfig"; path = "Pods/Target Support Files/Pods-4060E022(9)/Pods-4060E022(9).debug.xcconfig"; sourceTree = "<group>"; };
+		832D10A25559FE9B2275EF62 /* Pods_4060E022_9_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4060E022_9_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A27E2EA21EDDF9600F168DD /* PanoramicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramicViewController.swift; sourceTree = "<group>"; };
+		9A27E2EB21EDDF9600F168DD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A27E2EE21EDDF9E00F168DD /* MainMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMap.storyboard; sourceTree = "<group>"; };
+		9A27E2F121EDE00800F168DD /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		9A27E2F221EDE00800F168DD /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		9A27E2F321EDE00800F168DD /* VideoDetaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetaTableViewController.swift; sourceTree = "<group>"; };
+		9A27E2F721EDE01D00F168DD /* MainVideo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainVideo.storyboard; sourceTree = "<group>"; };
+		9A27E2FA21EDE0B100F168DD /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		9A27E2FB21EDE0B100F168DD /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		9A27E2FE21EDE0B500F168DD /* MainMusic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMusic.storyboard; sourceTree = "<group>"; };
+		9A27E30121EDE29300F168DD /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		9A27E30221EDE29300F168DD /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		9A27E30321EDE29300F168DD /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9A27E30721EDE2A400F168DD /* MainBook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainBook.storyboard; sourceTree = "<group>"; };
+		9A27E30C21EDE30E00F168DD /* fild002.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fild002.txt; sourceTree = "<group>"; };
+		9A27E30D21EDE30E00F168DD /* fild003.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fild003.txt; sourceTree = "<group>"; };
+		9A27E30E21EDE30E00F168DD /* fild004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fild004.txt; sourceTree = "<group>"; };
+		9A27E30F21EDE30E00F168DD /* fild005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fild005.txt; sourceTree = "<group>"; };
+		9A27E31021EDE30E00F168DD /* THEGOODSANDTHEILLS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = THEGOODSANDTHEILLS.txt; sourceTree = "<group>"; };
+		9A27E31121EDE30E00F168DD /* AesopsFables.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AesopsFables.txt; sourceTree = "<group>"; };
+		9A27E31221EDE30E00F168DD /* fild006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fild006.txt; sourceTree = "<group>"; };
+		9A27E31321EDE30E00F168DD /* fild001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fild001.txt; sourceTree = "<group>"; };
+		9A27E31D21EDE34E00F168DD /* 6-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-3.mp4"; sourceTree = "<group>"; };
+		9A27E31E21EDE34E00F168DD /* 6-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-1.txt"; sourceTree = "<group>"; };
+		9A27E31F21EDE34F00F168DD /* 6-10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-10.mp4"; sourceTree = "<group>"; };
+		9A27E32021EDE35000F168DD /* 6-9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-9.mp4"; sourceTree = "<group>"; };
+		9A27E32121EDE35200F168DD /* 6-8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-8.mp4"; sourceTree = "<group>"; };
+		9A27E32221EDE35500F168DD /* 6-6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-6.mp4"; sourceTree = "<group>"; };
+		9A27E32321EDE35600F168DD /* 6-11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-11.mp4"; sourceTree = "<group>"; };
+		9A27E32421EDE35700F168DD /* 6-12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-12.mp4"; sourceTree = "<group>"; };
+		9A27E32521EDE35800F168DD /* 6-4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-4.mp4"; sourceTree = "<group>"; };
+		9A27E32621EDE35800F168DD /* 6-7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-7.mp4"; sourceTree = "<group>"; };
+		9A27E32721EDE35800F168DD /* 6-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-2.txt"; sourceTree = "<group>"; };
+		9A27E32821EDE35800F168DD /* 6-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-2.mp4"; sourceTree = "<group>"; };
+		9A27E32921EDE35900F168DD /* 6-5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-5.mp4"; sourceTree = "<group>"; };
+		9A27E32A21EDE35A00F168DD /* 6-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6-1.mp4"; sourceTree = "<group>"; };
+		9A27E33A21EDE3AA00F168DD /* V.K克[逆動‧平行時空]MV [Reverse ‧ Parallel Universe].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克[逆動‧平行時空]MV [Reverse ‧ Parallel Universe].mp3"; sourceTree = "<group>"; };
+		9A27E33B21EDE3AB00F168DD /* V.K 克 - 淚的聲音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K 克 - 淚的聲音.mp3"; sourceTree = "<group>"; };
+		9A27E33C21EDE3AB00F168DD /* V.K 克 - 戀冬.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K 克 - 戀冬.mp3"; sourceTree = "<group>"; };
+		9A27E33D21EDE3AB00F168DD /* V.K克-守護天使.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克-守護天使.mp3"; sourceTree = "<group>"; };
+		9A27E33E21EDE3AC00F168DD /* V.K克[Evolution era].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克[Evolution era].mp3"; sourceTree = "<group>"; };
+		9A27E33F21EDE3AC00F168DD /* V.K 克 - 琴之翼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K 克 - 琴之翼.mp3"; sourceTree = "<group>"; };
+		9A27E34021EDE3AC00F168DD /* V.K克-精靈之歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克-精靈之歌.mp3"; sourceTree = "<group>"; };
+		9A27E34121EDE3AC00F168DD /* V.K克[十億光年的距離].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克[十億光年的距離].mp3"; sourceTree = "<group>"; };
+		9A27E34221EDE3AC00F168DD /* V.K克[蘭陵王]テーマ曲＜雪舞＞.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克[蘭陵王]テーマ曲＜雪舞＞.mp3"; sourceTree = "<group>"; };
+		9A27E34321EDE3AD00F168DD /* V.K克-[紙飛機的冒險]Paper Planes Adventure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克-[紙飛機的冒險]Paper Planes Adventure.mp3"; sourceTree = "<group>"; };
+		9A27E34421EDE3AD00F168DD /* V.K 克 - 花水月.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K 克 - 花水月.mp3"; sourceTree = "<group>"; };
+		9A27E34521EDE3AD00F168DD /* V.K克 - 純白.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克 - 純白.mp3"; sourceTree = "<group>"; };
+		9A27E34621EDE3AD00F168DD /* V.K克 - 愛 無限.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克 - 愛 無限.mp3"; sourceTree = "<group>"; };
+		9A27E34721EDE3AD00F168DD /* V.K克-晨星.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K克-晨星.mp3"; sourceTree = "<group>"; };
+		9A27E34821EDE3AD00F168DD /* V.K 克 - 亞特蘭提斯之戀.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K 克 - 亞特蘭提斯之戀.mp3"; sourceTree = "<group>"; };
+		9A27E34921EDE3AE00F168DD /* V.K 克 - 鏡夜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "V.K 克 - 鏡夜.mp3"; sourceTree = "<group>"; };
+		9A5FD7E821DF52F0007037C5 /* h19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h19.jpg; sourceTree = "<group>"; };
+		9A6BC6C521DF33C300E1A08A /* h22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h22.jpg; path = "4060E022(9)/Images/h22.jpg"; sourceTree = SOURCE_ROOT; };
+		9A6BC6CC21DF33C400E1A08A /* night_sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = night_sky.jpg; path = "4060E022(9)/Images/night_sky.jpg"; sourceTree = SOURCE_ROOT; };
+		9A6BC6D721DF33C500E1A08A /* h23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h23.jpg; path = "4060E022(9)/Images/h23.jpg"; sourceTree = SOURCE_ROOT; };
+		9A6BC6F321DF366200E1A08A /* north_pole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = north_pole.jpg; sourceTree = "<group>"; };
+		9A6BC6F721DF3E8500E1A08A /* h18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h18.jpg; sourceTree = "<group>"; };
+		9A6BC6F821DF3E8500E1A08A /* h12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h12.jpg; sourceTree = "<group>"; };
+		9A6BC6F921DF3E8500E1A08A /* h5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h5.jpg; sourceTree = "<group>"; };
+		9A6BC6FA21DF3E8500E1A08A /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		9A6BC6FB21DF3E8500E1A08A /* h14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h14.jpg; sourceTree = "<group>"; };
+		9A6BC6FC21DF3E8500E1A08A /* h15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h15.jpg; sourceTree = "<group>"; };
+		9A6BC6FD21DF3E8500E1A08A /* h17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h17.jpg; sourceTree = "<group>"; };
+		9A6BC6FE21DF3E8500E1A08A /* h21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h21.jpg; sourceTree = "<group>"; };
+		9A6BC6FF21DF3E8500E1A08A /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		9A6BC70021DF3E8500E1A08A /* h11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h11.jpg; sourceTree = "<group>"; };
+		9A6BC70121DF3E8500E1A08A /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		9A6BC70221DF3E8500E1A08A /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		9A6BC70321DF3E8500E1A08A /* h10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h10.jpg; sourceTree = "<group>"; };
+		9A6BC70421DF3E8500E1A08A /* h16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h16.jpg; sourceTree = "<group>"; };
+		9A6BC70521DF3E8500E1A08A /* h8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h8.jpg; sourceTree = "<group>"; };
+		9A6BC70721DF3E8500E1A08A /* h20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h20.jpg; sourceTree = "<group>"; };
+		9A6BC70821DF3E8500E1A08A /* h7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h7.jpg; sourceTree = "<group>"; };
+		9A6BC70921DF3E8600E1A08A /* h9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h9.jpg; sourceTree = "<group>"; };
+		9A6BC70A21DF3E8600E1A08A /* h13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h13.jpg; sourceTree = "<group>"; };
+		9A6BC70B21DF3E8600E1A08A /* h6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h6.jpg; sourceTree = "<group>"; };
+		9AF5AE1A21DD9629003DF31F /* 4060E022(9).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4060E022(9).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF5AE1D21DD9629003DF31F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AF5AE1F21DD9629003DF31F /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		9AF5AE2221DD9629003DF31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AF5AE2421DD962B003DF31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF5AE2721DD962B003DF31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AF5AE2921DD962B003DF31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF5AE2E21DD962B003DF31F /* 4060E022(9)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4060E022(9)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF5AE3221DD962B003DF31F /* _060E022_9_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _060E022_9_Tests.swift; sourceTree = "<group>"; };
+		9AF5AE3421DD962B003DF31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF5AE3921DD962B003DF31F /* 4060E022(9)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4060E022(9)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF5AE3D21DD962B003DF31F /* _060E022_9_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _060E022_9_UITests.swift; sourceTree = "<group>"; };
+		9AF5AE3F21DD962B003DF31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF5AE4B21DDABA0003DF31F /* CurrentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDetail.swift; sourceTree = "<group>"; };
+		9AF5AE4D21DDABB1003DF31F /* HourDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourDetail.swift; sourceTree = "<group>"; };
+		9AF5AE4F21DDABC7003DF31F /* ForecastDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDetail.swift; sourceTree = "<group>"; };
+		9AF5AE5121DDABD5003DF31F /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		9AF5AE5321DDABE5003DF31F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9AF5AE5521DDABF4003DF31F /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		9AF5AE5721DDAC38003DF31F /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C71EAF72E1824510CAF0FF3 /* Pods-4060E022(9)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4060E022(9)Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-4060E022(9)Tests/Pods-4060E022(9)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D82E3C1E97E09F65DC8151 /* Pods-4060E022(9)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4060E022(9)Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-4060E022(9)Tests/Pods-4060E022(9)Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF5AE1721DD9629003DF31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3C51C8120AB7CED5DC864 /* Pods_4060E022_9_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF5AE2B21DD962B003DF31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0103C1CF19E3E292EAED52 /* Pods_4060E022_9_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF5AE3621DD962B003DF31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28727D8D86B69A01A09624AD /* Pods_4060E022_9_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065C735868A97E6ABF32D946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832D10A25559FE9B2275EF62 /* Pods_4060E022_9_.framework */,
+				0329D3FAD5463A77A79303E9 /* Pods_4060E022_9_Tests.framework */,
+				5223FE2DE05BC5FA1EDFA7BD /* Pods_4060E022_9_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A27E2E921EDDF8500F168DD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E2EA21EDDF9600F168DD /* PanoramicViewController.swift */,
+				9A27E2EE21EDDF9E00F168DD /* MainMap.storyboard */,
+				9A27E2EB21EDDF9600F168DD /* ViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9A27E2F021EDDFE800F168DD /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E31C21EDE33800F168DD /* Videos */,
+				9A27E2F321EDE00800F168DD /* VideoDetaTableViewController.swift */,
+				9A27E2F721EDE01D00F168DD /* MainVideo.storyboard */,
+				9A27E2F121EDE00800F168DD /* VideoTableViewCell.swift */,
+				9A27E2F221EDE00800F168DD /* VideoTableViewController.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		9A27E2F921EDE09F00F168DD /* music */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E33921EDE39E00F168DD /* Songs */,
+				9A27E2FE21EDE0B500F168DD /* MainMusic.storyboard */,
+				9A27E2FA21EDE0B100F168DD /* SongTableViewCell.swift */,
+				9A27E2FB21EDE0B100F168DD /* ViewControllers.swift */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		9A27E30021EDE24400F168DD /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E30B21EDE30300F168DD /* textfile */,
+				9A27E30721EDE2A400F168DD /* MainBook.storyboard */,
+				9A27E30121EDE29300F168DD /* DataViewController.swift */,
+				9A27E30221EDE29300F168DD /* ModelController.swift */,
+				9A27E30321EDE29300F168DD /* RootViewController.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		9A27E30B21EDE30300F168DD /* textfile */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E31121EDE30E00F168DD /* AesopsFables.txt */,
+				9A27E31321EDE30E00F168DD /* fild001.txt */,
+				9A27E30C21EDE30E00F168DD /* fild002.txt */,
+				9A27E30D21EDE30E00F168DD /* fild003.txt */,
+				9A27E30E21EDE30E00F168DD /* fild004.txt */,
+				9A27E30F21EDE30E00F168DD /* fild005.txt */,
+				9A27E31221EDE30E00F168DD /* fild006.txt */,
+				9A27E31021EDE30E00F168DD /* THEGOODSANDTHEILLS.txt */,
+			);
+			name = textfile;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9A27E31C21EDE33800F168DD /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E32A21EDE35A00F168DD /* 6-1.mp4 */,
+				9A27E31E21EDE34E00F168DD /* 6-1.txt */,
+				9A27E32821EDE35800F168DD /* 6-2.mp4 */,
+				9A27E32721EDE35800F168DD /* 6-2.txt */,
+				9A27E31D21EDE34E00F168DD /* 6-3.mp4 */,
+				9A27E32521EDE35800F168DD /* 6-4.mp4 */,
+				9A27E32921EDE35900F168DD /* 6-5.mp4 */,
+				9A27E32221EDE35500F168DD /* 6-6.mp4 */,
+				9A27E32621EDE35800F168DD /* 6-7.mp4 */,
+				9A27E32121EDE35200F168DD /* 6-8.mp4 */,
+				9A27E32021EDE35000F168DD /* 6-9.mp4 */,
+				9A27E31F21EDE34F00F168DD /* 6-10.mp4 */,
+				9A27E32321EDE35600F168DD /* 6-11.mp4 */,
+				9A27E32421EDE35700F168DD /* 6-12.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		9A27E33921EDE39E00F168DD /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E34821EDE3AD00F168DD /* V.K 克 - 亞特蘭提斯之戀.mp3 */,
+				9A27E34421EDE3AD00F168DD /* V.K 克 - 花水月.mp3 */,
+				9A27E33B21EDE3AB00F168DD /* V.K 克 - 淚的聲音.mp3 */,
+				9A27E33F21EDE3AC00F168DD /* V.K 克 - 琴之翼.mp3 */,
+				9A27E34921EDE3AE00F168DD /* V.K 克 - 鏡夜.mp3 */,
+				9A27E33C21EDE3AB00F168DD /* V.K 克 - 戀冬.mp3 */,
+				9A27E34521EDE3AD00F168DD /* V.K克 - 純白.mp3 */,
+				9A27E34621EDE3AD00F168DD /* V.K克 - 愛 無限.mp3 */,
+				9A27E34321EDE3AD00F168DD /* V.K克-[紙飛機的冒險]Paper Planes Adventure.mp3 */,
+				9A27E33D21EDE3AB00F168DD /* V.K克-守護天使.mp3 */,
+				9A27E34721EDE3AD00F168DD /* V.K克-晨星.mp3 */,
+				9A27E34021EDE3AC00F168DD /* V.K克-精靈之歌.mp3 */,
+				9A27E34121EDE3AC00F168DD /* V.K克[十億光年的距離].mp3 */,
+				9A27E33A21EDE3AA00F168DD /* V.K克[逆動‧平行時空]MV [Reverse ‧ Parallel Universe].mp3 */,
+				9A27E34221EDE3AC00F168DD /* V.K克[蘭陵王]テーマ曲＜雪舞＞.mp3 */,
+				9A27E33E21EDE3AC00F168DD /* V.K克[Evolution era].mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		9A6BC6BE21DF32C200E1A08A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9A6BC70121DF3E8500E1A08A /* h1.jpg */,
+				9A6BC6FA21DF3E8500E1A08A /* h2.jpg */,
+				9A6BC6FF21DF3E8500E1A08A /* h3.jpg */,
+				9A6BC70221DF3E8500E1A08A /* h4.jpg */,
+				9A6BC6F921DF3E8500E1A08A /* h5.jpg */,
+				9A6BC70B21DF3E8600E1A08A /* h6.jpg */,
+				9A6BC70821DF3E8500E1A08A /* h7.jpg */,
+				9A6BC70521DF3E8500E1A08A /* h8.jpg */,
+				9A6BC70921DF3E8600E1A08A /* h9.jpg */,
+				9A6BC70321DF3E8500E1A08A /* h10.jpg */,
+				9A6BC70021DF3E8500E1A08A /* h11.jpg */,
+				9A6BC6F821DF3E8500E1A08A /* h12.jpg */,
+				9A6BC70A21DF3E8600E1A08A /* h13.jpg */,
+				9A6BC6FB21DF3E8500E1A08A /* h14.jpg */,
+				9A6BC6FC21DF3E8500E1A08A /* h15.jpg */,
+				9A6BC70421DF3E8500E1A08A /* h16.jpg */,
+				9A6BC6FD21DF3E8500E1A08A /* h17.jpg */,
+				9A6BC6F721DF3E8500E1A08A /* h18.jpg */,
+				9A5FD7E821DF52F0007037C5 /* h19.jpg */,
+				9A6BC70721DF3E8500E1A08A /* h20.jpg */,
+				9A6BC6FE21DF3E8500E1A08A /* h21.jpg */,
+				9A6BC6C521DF33C300E1A08A /* h22.jpg */,
+				9A6BC6D721DF33C500E1A08A /* h23.jpg */,
+				9A6BC6CC21DF33C400E1A08A /* night_sky.jpg */,
+				9A6BC6F321DF366200E1A08A /* north_pole.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9AF5AE1121DD9629003DF31F = {
+			isa = PBXGroup;
+			children = (
+				9AF5AE1C21DD9629003DF31F /* 4060E022(9) */,
+				9AF5AE3121DD962B003DF31F /* 4060E022(9)Tests */,
+				9AF5AE3C21DD962B003DF31F /* 4060E022(9)UITests */,
+				9AF5AE1B21DD9629003DF31F /* Products */,
+				D00054B8A9A8A991B029F7C6 /* Pods */,
+				065C735868A97E6ABF32D946 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF5AE1B21DD9629003DF31F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5AE1A21DD9629003DF31F /* 4060E022(9).app */,
+				9AF5AE2E21DD962B003DF31F /* 4060E022(9)Tests.xctest */,
+				9AF5AE3921DD962B003DF31F /* 4060E022(9)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF5AE1C21DD9629003DF31F /* 4060E022(9) */ = {
+			isa = PBXGroup;
+			children = (
+				9A27E30021EDE24400F168DD /* Book */,
+				9A27E2F921EDE09F00F168DD /* music */,
+				9A27E2F021EDDFE800F168DD /* Video */,
+				9A27E2E921EDDF8500F168DD /* Map */,
+				9A6BC6BE21DF32C200E1A08A /* Images */,
+				9AF5AE1D21DD9629003DF31F /* AppDelegate.swift */,
+				9AF5AE1F21DD9629003DF31F /* WeatherViewController.swift */,
+				9AF5AE2121DD9629003DF31F /* Main.storyboard */,
+				9AF5AE2421DD962B003DF31F /* Assets.xcassets */,
+				9AF5AE2621DD962B003DF31F /* LaunchScreen.storyboard */,
+				9AF5AE2921DD962B003DF31F /* Info.plist */,
+				9AF5AE4B21DDABA0003DF31F /* CurrentDetail.swift */,
+				9AF5AE4D21DDABB1003DF31F /* HourDetail.swift */,
+				9AF5AE4F21DDABC7003DF31F /* ForecastDetail.swift */,
+				9AF5AE5121DDABD5003DF31F /* CurrentWeather.swift */,
+				9AF5AE5321DDABE5003DF31F /* Location.swift */,
+				9AF5AE5521DDABF4003DF31F /* WeatherTableViewCell.swift */,
+				9AF5AE5721DDAC38003DF31F /* WeatherCollectionViewCell.swift */,
+			);
+			path = "4060E022(9)";
+			sourceTree = "<group>";
+		};
+		9AF5AE3121DD962B003DF31F /* 4060E022(9)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5AE3221DD962B003DF31F /* _060E022_9_Tests.swift */,
+				9AF5AE3421DD962B003DF31F /* Info.plist */,
+			);
+			path = "4060E022(9)Tests";
+			sourceTree = "<group>";
+		};
+		9AF5AE3C21DD962B003DF31F /* 4060E022(9)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5AE3D21DD962B003DF31F /* _060E022_9_UITests.swift */,
+				9AF5AE3F21DD962B003DF31F /* Info.plist */,
+			);
+			path = "4060E022(9)UITests";
+			sourceTree = "<group>";
+		};
+		D00054B8A9A8A991B029F7C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68391931F2E53A3A429CA1D1 /* Pods-4060E022(9).debug.xcconfig */,
+				1B05C7586CB66F1551FB6F31 /* Pods-4060E022(9).release.xcconfig */,
+				9C71EAF72E1824510CAF0FF3 /* Pods-4060E022(9)Tests.debug.xcconfig */,
+				C8D82E3C1E97E09F65DC8151 /* Pods-4060E022(9)Tests.release.xcconfig */,
+				126C1072F5E6B3436CC70D12 /* Pods-4060E022(9)UITests.debug.xcconfig */,
+				4838432FDC7337D3A53CC43B /* Pods-4060E022(9)UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF5AE1921DD9629003DF31F /* 4060E022(9) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF5AE4221DD962B003DF31F /* Build configuration list for PBXNativeTarget "4060E022(9)" */;
+			buildPhases = (
+				BE12965D7F9DA9415F629426 /* [CP] Check Pods Manifest.lock */,
+				9AF5AE1621DD9629003DF31F /* Sources */,
+				9AF5AE1721DD9629003DF31F /* Frameworks */,
+				9AF5AE1821DD9629003DF31F /* Resources */,
+				4827A3A5D73E4006400FF3A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4060E022(9)";
+			productName = "4060E022(9)";
+			productReference = 9AF5AE1A21DD9629003DF31F /* 4060E022(9).app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AF5AE2D21DD962B003DF31F /* 4060E022(9)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF5AE4521DD962B003DF31F /* Build configuration list for PBXNativeTarget "4060E022(9)Tests" */;
+			buildPhases = (
+				B636E5E11C0F1ECFFC74BDA3 /* [CP] Check Pods Manifest.lock */,
+				9AF5AE2A21DD962B003DF31F /* Sources */,
+				9AF5AE2B21DD962B003DF31F /* Frameworks */,
+				9AF5AE2C21DD962B003DF31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF5AE3021DD962B003DF31F /* PBXTargetDependency */,
+			);
+			name = "4060E022(9)Tests";
+			productName = "4060E022(9)Tests";
+			productReference = 9AF5AE2E21DD962B003DF31F /* 4060E022(9)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AF5AE3821DD962B003DF31F /* 4060E022(9)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF5AE4821DD962B003DF31F /* Build configuration list for PBXNativeTarget "4060E022(9)UITests" */;
+			buildPhases = (
+				7908549682E84F651D7CA445 /* [CP] Check Pods Manifest.lock */,
+				9AF5AE3521DD962B003DF31F /* Sources */,
+				9AF5AE3621DD962B003DF31F /* Frameworks */,
+				9AF5AE3721DD962B003DF31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF5AE3B21DD962B003DF31F /* PBXTargetDependency */,
+			);
+			name = "4060E022(9)UITests";
+			productName = "4060E022(9)UITests";
+			productReference = 9AF5AE3921DD962B003DF31F /* 4060E022(9)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF5AE1221DD9629003DF31F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DreamPlatz;
+				TargetAttributes = {
+					9AF5AE1921DD9629003DF31F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9AF5AE2D21DD962B003DF31F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9AF5AE1921DD9629003DF31F;
+					};
+					9AF5AE3821DD962B003DF31F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9AF5AE1921DD9629003DF31F;
+					};
+				};
+			};
+			buildConfigurationList = 9AF5AE1521DD9629003DF31F /* Build configuration list for PBXProject "4060E022(9)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF5AE1121DD9629003DF31F;
+			productRefGroup = 9AF5AE1B21DD9629003DF31F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF5AE1921DD9629003DF31F /* 4060E022(9) */,
+				9AF5AE2D21DD962B003DF31F /* 4060E022(9)Tests */,
+				9AF5AE3821DD962B003DF31F /* 4060E022(9)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF5AE1821DD9629003DF31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A27E35321EDE3AE00F168DD /* V.K克-[紙飛機的冒險]Paper Planes Adventure.mp3 in Resources */,
+				9A27E32B21EDE35A00F168DD /* 6-3.mp4 in Resources */,
+				9A27E31921EDE30E00F168DD /* AesopsFables.txt in Resources */,
+				9A27E31A21EDE30E00F168DD /* fild006.txt in Resources */,
+				9A27E34F21EDE3AE00F168DD /* V.K 克 - 琴之翼.mp3 in Resources */,
+				9A6BC71E21DF3E8600E1A08A /* h9.jpg in Resources */,
+				9A27E33421EDE35A00F168DD /* 6-7.mp4 in Resources */,
+				9A6BC71C21DF3E8600E1A08A /* h20.jpg in Resources */,
+				9A27E34C21EDE3AE00F168DD /* V.K 克 - 戀冬.mp3 in Resources */,
+				9A27E31821EDE30E00F168DD /* THEGOODSANDTHEILLS.txt in Resources */,
+				9A6BC71921DF3E8600E1A08A /* h16.jpg in Resources */,
+				9A6BC71A21DF3E8600E1A08A /* h8.jpg in Resources */,
+				9A27E33521EDE35A00F168DD /* 6-2.txt in Resources */,
+				9A27E33121EDE35A00F168DD /* 6-11.mp4 in Resources */,
+				9A6BC71421DF3E8600E1A08A /* h3.jpg in Resources */,
+				9A27E35721EDE3AE00F168DD /* V.K克-晨星.mp3 in Resources */,
+				9A5FD7E921DF52F0007037C5 /* h19.jpg in Resources */,
+				9A27E33721EDE35A00F168DD /* 6-5.mp4 in Resources */,
+				9A6BC70E21DF3E8600E1A08A /* h5.jpg in Resources */,
+				9A6BC71D21DF3E8600E1A08A /* h7.jpg in Resources */,
+				9A27E35121EDE3AE00F168DD /* V.K克[十億光年的距離].mp3 in Resources */,
+				9A27E35621EDE3AE00F168DD /* V.K克 - 愛 無限.mp3 in Resources */,
+				9A27E34B21EDE3AE00F168DD /* V.K 克 - 淚的聲音.mp3 in Resources */,
+				9A27E33621EDE35A00F168DD /* 6-2.mp4 in Resources */,
+				9A27E34D21EDE3AE00F168DD /* V.K克-守護天使.mp3 in Resources */,
+				9A6BC70D21DF3E8600E1A08A /* h12.jpg in Resources */,
+				9A6BC71521DF3E8600E1A08A /* h11.jpg in Resources */,
+				9A6BC6DF21DF33C600E1A08A /* h22.jpg in Resources */,
+				9A27E30821EDE2A400F168DD /* MainBook.storyboard in Resources */,
+				9A6BC71821DF3E8600E1A08A /* h10.jpg in Resources */,
+				9A27E31721EDE30E00F168DD /* fild005.txt in Resources */,
+				9A27E35221EDE3AE00F168DD /* V.K克[蘭陵王]テーマ曲＜雪舞＞.mp3 in Resources */,
+				9A27E31B21EDE30E00F168DD /* fild001.txt in Resources */,
+				9A27E31421EDE30E00F168DD /* fild002.txt in Resources */,
+				9A6BC71721DF3E8600E1A08A /* h4.jpg in Resources */,
+				9A27E32C21EDE35A00F168DD /* 6-1.txt in Resources */,
+				9A6BC71021DF3E8600E1A08A /* h14.jpg in Resources */,
+				9A6BC6F121DF33C600E1A08A /* h23.jpg in Resources */,
+				9A6BC6E621DF33C600E1A08A /* night_sky.jpg in Resources */,
+				9A27E33821EDE35A00F168DD /* 6-1.mp4 in Resources */,
+				9A6BC71321DF3E8600E1A08A /* h21.jpg in Resources */,
+				9A6BC71221DF3E8600E1A08A /* h17.jpg in Resources */,
+				9A27E32D21EDE35A00F168DD /* 6-10.mp4 in Resources */,
+				9A27E33221EDE35A00F168DD /* 6-12.mp4 in Resources */,
+				9A6BC6F421DF366200E1A08A /* north_pole.jpg in Resources */,
+				9A6BC72021DF3E8600E1A08A /* h6.jpg in Resources */,
+				9A6BC71121DF3E8600E1A08A /* h15.jpg in Resources */,
+				9A27E31521EDE30E00F168DD /* fild003.txt in Resources */,
+				9A27E2F821EDE01D00F168DD /* MainVideo.storyboard in Resources */,
+				9A27E35521EDE3AE00F168DD /* V.K克 - 純白.mp3 in Resources */,
+				9A27E32F21EDE35A00F168DD /* 6-8.mp4 in Resources */,
+				9A27E34E21EDE3AE00F168DD /* V.K克[Evolution era].mp3 in Resources */,
+				9AF5AE2821DD962B003DF31F /* LaunchScreen.storyboard in Resources */,
+				9A6BC71F21DF3E8600E1A08A /* h13.jpg in Resources */,
+				9AF5AE2521DD962B003DF31F /* Assets.xcassets in Resources */,
+				9A27E35021EDE3AE00F168DD /* V.K克-精靈之歌.mp3 in Resources */,
+				9A27E2EF21EDDF9E00F168DD /* MainMap.storyboard in Resources */,
+				9A27E31621EDE30E00F168DD /* fild004.txt in Resources */,
+				9A27E35421EDE3AE00F168DD /* V.K 克 - 花水月.mp3 in Resources */,
+				9A27E33021EDE35A00F168DD /* 6-6.mp4 in Resources */,
+				9A27E35921EDE3AE00F168DD /* V.K 克 - 鏡夜.mp3 in Resources */,
+				9A27E33321EDE35A00F168DD /* 6-4.mp4 in Resources */,
+				9A27E32E21EDE35A00F168DD /* 6-9.mp4 in Resources */,
+				9A6BC70F21DF3E8600E1A08A /* h2.jpg in Resources */,
+				9AF5AE2321DD9629003DF31F /* Main.storyboard in Resources */,
+				9A6BC71621DF3E8600E1A08A /* h1.jpg in Resources */,
+				9A27E2FF21EDE0B500F168DD /* MainMusic.storyboard in Resources */,
+				9A27E34A21EDE3AE00F168DD /* V.K克[逆動‧平行時空]MV [Reverse ‧ Parallel Universe].mp3 in Resources */,
+				9A27E35821EDE3AE00F168DD /* V.K 克 - 亞特蘭提斯之戀.mp3 in Resources */,
+				9A6BC70C21DF3E8600E1A08A /* h18.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF5AE2C21DD962B003DF31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF5AE3721DD962B003DF31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4827A3A5D73E4006400FF3A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-4060E022(9)/Pods-4060E022(9)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-4060E022(9)/Pods-4060E022(9)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7908549682E84F651D7CA445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4060E022(9)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B636E5E11C0F1ECFFC74BDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4060E022(9)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE12965D7F9DA9415F629426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4060E022(9)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF5AE1621DD9629003DF31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF5AE5821DDAC38003DF31F /* WeatherCollectionViewCell.swift in Sources */,
+				9AF5AE5621DDABF4003DF31F /* WeatherTableViewCell.swift in Sources */,
+				9A27E30621EDE29300F168DD /* RootViewController.swift in Sources */,
+				9AF5AE4E21DDABB1003DF31F /* HourDetail.swift in Sources */,
+				9A27E30521EDE29300F168DD /* ModelController.swift in Sources */,
+				9AF5AE4C21DDABA0003DF31F /* CurrentDetail.swift in Sources */,
+				9A27E2ED21EDDF9600F168DD /* ViewController.swift in Sources */,
+				9A27E2F421EDE00800F168DD /* VideoTableViewCell.swift in Sources */,
+				9AF5AE5021DDABC7003DF31F /* ForecastDetail.swift in Sources */,
+				9AF5AE2021DD9629003DF31F /* WeatherViewController.swift in Sources */,
+				9AF5AE5221DDABD5003DF31F /* CurrentWeather.swift in Sources */,
+				9AF5AE1E21DD9629003DF31F /* AppDelegate.swift in Sources */,
+				9AF5AE5421DDABE5003DF31F /* Location.swift in Sources */,
+				9A27E30421EDE29300F168DD /* DataViewController.swift in Sources */,
+				9A27E2F521EDE00800F168DD /* VideoTableViewController.swift in Sources */,
+				9A27E2FC21EDE0B100F168DD /* SongTableViewCell.swift in Sources */,
+				9A27E2EC21EDDF9600F168DD /* PanoramicViewController.swift in Sources */,
+				9A27E2FD21EDE0B100F168DD /* ViewControllers.swift in Sources */,
+				9A27E2F621EDE00800F168DD /* VideoDetaTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF5AE2A21DD962B003DF31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF5AE3321DD962B003DF31F /* _060E022_9_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF5AE3521DD962B003DF31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF5AE3E21DD962B003DF31F /* _060E022_9_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF5AE3021DD962B003DF31F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF5AE1921DD9629003DF31F /* 4060E022(9) */;
+			targetProxy = 9AF5AE2F21DD962B003DF31F /* PBXContainerItemProxy */;
+		};
+		9AF5AE3B21DD962B003DF31F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF5AE1921DD9629003DF31F /* 4060E022(9) */;
+			targetProxy = 9AF5AE3A21DD962B003DF31F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AF5AE2121DD9629003DF31F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF5AE2221DD9629003DF31F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF5AE2621DD962B003DF31F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF5AE2721DD962B003DF31F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF5AE4021DD962B003DF31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AF5AE4121DD962B003DF31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF5AE4321DD962B003DF31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68391931F2E53A3A429CA1D1 /* Pods-4060E022(9).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "4060E022(9)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamPlatz.-060E022-9-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF5AE4421DD962B003DF31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B05C7586CB66F1551FB6F31 /* Pods-4060E022(9).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "4060E022(9)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamPlatz.-060E022-9-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AF5AE4621DD962B003DF31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C71EAF72E1824510CAF0FF3 /* Pods-4060E022(9)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "4060E022(9)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamPlatz.-060E022-9-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4060E022(9).app/4060E022(9)";
+			};
+			name = Debug;
+		};
+		9AF5AE4721DD962B003DF31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D82E3C1E97E09F65DC8151 /* Pods-4060E022(9)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "4060E022(9)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamPlatz.-060E022-9-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4060E022(9).app/4060E022(9)";
+			};
+			name = Release;
+		};
+		9AF5AE4921DD962B003DF31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126C1072F5E6B3436CC70D12 /* Pods-4060E022(9)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "4060E022(9)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamPlatz.-060E022-9-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4060E022(9)";
+			};
+			name = Debug;
+		};
+		9AF5AE4A21DD962B003DF31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4838432FDC7337D3A53CC43B /* Pods-4060E022(9)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "4060E022(9)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamPlatz.-060E022-9-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4060E022(9)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF5AE1521DD9629003DF31F /* Build configuration list for PBXProject "4060E022(9)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF5AE4021DD962B003DF31F /* Debug */,
+				9AF5AE4121DD962B003DF31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF5AE4221DD962B003DF31F /* Build configuration list for PBXNativeTarget "4060E022(9)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF5AE4321DD962B003DF31F /* Debug */,
+				9AF5AE4421DD962B003DF31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF5AE4521DD962B003DF31F /* Build configuration list for PBXNativeTarget "4060E022(9)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF5AE4621DD962B003DF31F /* Debug */,
+				9AF5AE4721DD962B003DF31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF5AE4821DD962B003DF31F /* Build configuration list for PBXNativeTarget "4060E022(9)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF5AE4921DD962B003DF31F /* Debug */,
+				9AF5AE4A21DD962B003DF31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF5AE1221DD9629003DF31F /* Project object */;
+}
