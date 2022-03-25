@@ -15,8 +15,8 @@ import re
 
 # 建立conn連線到本地端資訊
 conn = pymysql.connect(host="mysql",
-                     user="root",
-                     passwd="123456",
+                     user="USERNAME",
+                     passwd="PASSWD",
                      database="example",
                      charset="utf8")
 # 使用 cursor() 方法建立一個遊標物件 cursor
