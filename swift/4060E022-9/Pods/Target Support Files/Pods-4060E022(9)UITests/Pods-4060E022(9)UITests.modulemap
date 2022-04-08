@@ -1,6 +1,0 @@
-framework module Pods_4060E022_9_UITests {
-  umbrella header "Pods-4060E022(9)UITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
